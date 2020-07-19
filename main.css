@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(149, 161, 157);
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(71, 99, 94);
+    height: 50px;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    padding: 14px 16px;
+    display: block;
+    text-decoration: none; 
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+li a:hover {
+    background-color: #4d4164;
+    border-radius: .5rem;
+}
+
+.hotdog img {
+    width: 50%;
+}
+
+section {
+    padding: 20px;
+    border: 1px dashed rgb(43, 66, 43);
+    margin: 10px 5px 50px 15px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+}
+section: :last-of-type {
+    margin-bottom: 50px;
+}
